@@ -22,4 +22,5 @@ describe('Calculadora - Adição', function() {
 	it('deve retornar 0 quando número 2 for inválido', function() {
 		expect(Calculadora.adicionar(10, undefined)).toEqual(0);
 	});
+	
 });
